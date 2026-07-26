@@ -13,3 +13,4 @@ const upi='upi added';
 console.log(upi);
 
 const latest ='Latest update';
+console.log('bug fixed');
