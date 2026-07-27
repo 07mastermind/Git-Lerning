@@ -60,6 +60,8 @@ Git is a version control system used to track changes in files and collaborate w
 ## 8. Remote and GitHub
 - Add a remote repository:
   - `git remote add origin <repo_url>`
+- Rename the current branch to main:
+  - `git branch -M main`
 - Push changes:
   - `git push -u origin main`
 - Pull changes:
@@ -78,6 +80,20 @@ Git is a version control system used to track changes in files and collaborate w
 - Use clear commit messages.
 - Commit small changes often.
 - Pull before pushing when working with others.
+
+## 11. Extra useful commands
+- Clone a repository:
+  - `git clone <repo_url>`
+- See changes:
+  - `git diff`
+- Temporarily save changes:git branch -M main
+  - `git stash`
+- Pull latest changes:
+  - `git pull`
+- Download updates without merging:
+  - `git fetch`
+- View remote URLs:
+  - `git remote -v`
 
 ## Example workflow
 ```bash
